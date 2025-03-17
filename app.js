@@ -10,7 +10,7 @@ console.log(document.getElementsByTagName("span")[0].innerHTML);
 document.getElementById("Primary_btn_01").addEventListener('click', function () {
     alert("Hello, I am clicked");
 });
-
-document.getElementById("Secondary_btn_02").addEventListener('click', function () {
+function dontClickbutton()
+{
     alert("Ohh! Don't click me");
-});
+}
