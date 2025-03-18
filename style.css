@@ -49,3 +49,14 @@ button
 #Secondary_btn_02:hover{
     color:rgb(195, 37, 48) ;
 }
+#Light_button{
+    width: 10%;
+    height: auto;
+    padding: 5px;
+    font-size: 20px;
+    background-color:rgb(224, 19, 33) ;
+    color: rgb(249, 249, 249);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}

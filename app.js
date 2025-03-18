@@ -14,3 +14,17 @@ function dontClickbutton()
 {
     alert("Ohh! Don't click me");
 }
+//function for bulb image
+function ChangeImage() {
+    let BulbVal = document.getElementById("Bulb");
+    if(BulbVal.src.match("Bulb_on"))
+    {
+        BulbVal.src= "./assets/Bulb_off.png";   
+    }
+    else
+    {
+        BulbVal.src= "./assets/Bulb_on.png";
+    }
+}
+    
+
