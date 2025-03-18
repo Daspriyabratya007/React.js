@@ -26,5 +26,22 @@ function ChangeImage() {
         BulbVal.src= "./assets/Bulb_on.png";
     }
 }
+//password js
+function ShowPassword() {
+    let ShowPass = document.getElementById("inputValue");
+    let ShowButton = document.getElementById("show_btn")
+    {
+        if (ShowPass.type==='password')
+        {
+            ShowPass.type ='text';
+            ShowButton.innerHTML ='Hide';
+        }
+        else{
+            ShowPass.type='password';
+            ShowButton.innerHTML='Show';
+        }
+    }
+    
+}
     
 

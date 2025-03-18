@@ -60,3 +60,17 @@ button
     border-radius: 5px;
     cursor: pointer; 
 }
+#show_btn
+{
+    size: 100cm;
+    width: 10%;
+    height: auto;
+    padding: 5px;
+    font-size: 20px;
+    background-color:rgb(3, 3, 250) ;
+    color: rgb(237, 241, 241);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
