@@ -1,29 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
-import Cards from './Components/Cards'
+import Cards from './Components/Cards';
+import mockSampleData from "./MockData/DummyData.json"
 function App() {
+  console.log(mockSampleData);
+  console.log(mockSampleData.users);
   return (
-    <div className="App">
-      <header className="App-header">
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1> This is my First ever React Application</h1>
+      {
+        // Calling the Cards component
+      }
+      <div className="cards">
+      
+      {
+        mockSampleData.users.map((item)=>{
+          console.log("Hello I'm from MAP: "+item.firstName+" "+item.lastName);
+          return <Cards name={`${item.firstName}${item.lastName}`} 
+          imgPath={item.image} username={item.username}
+          eyecolor={item.eyeColor}
+          age={item.age}
+          BloodG={item.bloodGroup}
+          />
+        })
+      }
+      </div>
+      
     </div>
   );
 }
