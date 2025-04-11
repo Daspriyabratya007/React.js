@@ -8,13 +8,13 @@ function App() {
   return (
    
     <div>
-       <span class ="My Line">
+       <div class ="My Line">
       <h1> This is my First ever React Application</h1>
       {
         // Calling the Cards component
       }
-      </span>
-      <hr></hr>
+      </div>
+      {/* <hr></hr> */}
       
       <div className="cards">
       

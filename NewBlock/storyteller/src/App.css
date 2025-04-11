@@ -5,11 +5,13 @@
   border: 1px solid black;
   margin-left: 3%;
   padding: 5px;
+  margin-bottom: 5vh;
   
 }
 
 .cards{
   display: flex;
+  flex-wrap: wrap;
 }
 .My Line
 {
