@@ -39,3 +39,28 @@
   margin: 10px;
   border-radius:10px;;
 }
+.accordion {
+  height: auto;
+  border: 1px dotted slategrey;
+}
+
+.accordion-header {
+  padding: 1px 1px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.accordion-body {
+  padding: 1px 5px;
+  margin: 10px 5px;
+}
+.image{
+  height: 10%;
+  width: 15%;
+ 
+  border: 1px solid black;
+  /* margin-left: 3%; */
+  padding: 5px;
+  /* margin-bottom: 5vh; */
+
+}
